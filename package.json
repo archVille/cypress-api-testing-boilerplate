@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "ajv": "^8.12.0",
+    "chai": "^4.3.7",
+    "chai-json-schema": "^1.5.1",
+    "chai-json-schema-ajv": "^5.2.4",
+    "cypress": "^13.6.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run "
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.1"
+  }
+}
